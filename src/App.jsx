@@ -7,17 +7,15 @@ import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import NewPin from './pages/NewPin';
 import NewBoard from './pages/NewBoard';
+import EditPin from './pages/EditPin';
+import Share from './pages/share';
 
 
 export default function App() {
+  // Variable to hold all the pins a user has
   const history = [];
-
-  // return (
-  //   <>
-  //   //     <NavigationBar />
-  //   //     <MyPin length={history.length} />
-  //   //   </>
-  //   // );
+  // Variable to hold the user signed in
+  const user = null;
 
   return (
     <div>
@@ -31,6 +29,8 @@ export default function App() {
           <Route path="signin" element={<SignIn />} />
           <Route path="newpin" element={<NewPin />} />
           <Route path="newboard" element={<NewBoard />} />
+          <Route path="editpin" element={<EditPin />} />
+          <Route path="share" element={<Share />} />
         </Route>
       </Routes>
     </div>

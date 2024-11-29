@@ -7,7 +7,7 @@ import Form from 'react-bootstrap/Form';
 function NavigationBar() {
     return (
         <Navbar expand="lg" className="bg-body-tertiary navbarContainer">
-            <Navbar.Brand href="about">My Wishlist</Navbar.Brand>
+            <Navbar.Brand>My Wishlist</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
@@ -23,7 +23,9 @@ function NavigationBar() {
                         <option value="3">Games</option>
                         <option value="3">Food</option>
                     </Form.Select>
-                    <Nav.Link href="#share">Share Wishlist</Nav.Link>
+                    <Nav.Link href="share">Share Wishlist</Nav.Link>
+                    <hr />
+                    <Nav.Link href="signin">Sign In/Sign Up</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

@@ -3,9 +3,9 @@ import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button';
 
-function NewPin() {
+function EditPin() {
     return (
-        <Container className='newPinContainer'>
+        <Container className='editPinContainer'>
 
             <Form.Label className="form-required">What's your heart's desire?</Form.Label>
             <InputGroup className="mb-3">
@@ -46,4 +46,4 @@ function NewPin() {
     );
 }
 
-export default NewPin;
+export default EditPin;

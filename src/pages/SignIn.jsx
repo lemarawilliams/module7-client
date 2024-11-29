@@ -18,8 +18,11 @@ function SignIn() {
                     <Form.Label>Password</Form.Label>
                     <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
+                <Button href="home" variant="success" type="submit">
+                    Sign In
+                </Button>
+                <Button href="home" className="m-3" variant="primary" type="submit">
+                    Sign Up
                 </Button>
             </Container>
         </Form>

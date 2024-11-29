@@ -13,8 +13,19 @@ filterTagSelect.form-select{
   height: 50px;
 }
 
-.signInContainer.container, .newPinContainer.container{
+.signInContainer.container, .newPinContainer.container, .editPinContainer.container{
   padding-top: 15%;
   width: 400px;
   margin: 0 auto;
+}
+
+.shareContainer.container {
+  padding-top: 15%;
+  width: 800px;
+  margin: 0 auto;
+}
+
+label.form-required::after {
+  content: " *";
+  color: red;
 }
